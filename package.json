@@ -1,0 +1,25 @@
+{
+  "name": "vite-react-ts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "node build/index.js",
+    "preview": "npm run build && live-server ./dist"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.6",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-legacy": "2.0.1",
+    "@vitejs/plugin-react": "2.0.1",
+    "less": "4.1.3",
+    "live-server": "1.2.2",
+    "typescript": "4.7.4",
+    "vite": "3.0.8"
+  }
+}
